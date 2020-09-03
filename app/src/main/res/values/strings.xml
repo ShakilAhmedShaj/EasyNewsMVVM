@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Easy News</string>
+    <string name="source">SOURCE</string>
+    <string name="title">TITLE</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="published_at">PUBLISHED AT</string>
+    <string name="search_hint">Search...</string>
+    <string name="top">Top</string>
+    <string name="saved">Saved</string>
+    <string name="search">Search</string>
 </resources>

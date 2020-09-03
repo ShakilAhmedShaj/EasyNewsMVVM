@@ -6,27 +6,27 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/etSearch"
+        android:id="@+id/et_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Search..."
+        android:hint="@string/search_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvSearchNews"
+        android:id="@+id/rv_search_news"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:paddingBottom="50dp"
         android:clipToPadding="false"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSearch"
+        app:layout_constraintTop_toBottomOf="@+id/et_search"
         tools:layout_editor_absoluteX="0dp" />
 
     <ProgressBar
-        android:id="@+id/paginationProgressBar"
+        android:id="@+id/pagination_progress_bar"
         style="?attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

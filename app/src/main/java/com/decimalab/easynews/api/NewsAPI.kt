@@ -1,6 +1,6 @@
 package com.decimalab.easynews.api
 
-import com.decimalab.easynews.NewsResponse
+import com.decimalab.easynews.models.NewsResponse
 import com.decimalab.easynews.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

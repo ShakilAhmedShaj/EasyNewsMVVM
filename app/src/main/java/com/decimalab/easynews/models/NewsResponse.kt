@@ -1,4 +1,4 @@
-package com.decimalab.easynews
+package com.decimalab.easynews.models
 
 data class NewsResponse(
     val articles: List<Article>,
